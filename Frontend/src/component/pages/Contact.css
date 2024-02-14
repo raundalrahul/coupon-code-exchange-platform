@@ -1,0 +1,32 @@
+.row .box-1{
+    
+    display: grid;
+    justify-content: center;
+
+}
+
+.row .box{
+    width:80%;
+    background-color: rgba(128, 128, 128, 0.206);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 120px;
+}
+
+.box{
+    text-align: center;
+}
+
+.box h6{
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.row .form-left input{
+    margin-bottom:12px;
+}
+.row .form-left textarea{
+    margin-bottom:12px;
+}

@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    height: 80vh;
+    background-color: aliceblue ;
+    margin-top: 10px;
+}
+ img{
+    width: 40%;
+
+}
+.row{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.row .right-section{
+    display: grid;
+    gap: 10px;
+}
+.row .right-section h2{
+    font-size:2.25rem;
+    font-weight: bold;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width:769px) {
+    .container{
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+    .row .left-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
