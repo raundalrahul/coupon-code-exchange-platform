@@ -16,7 +16,7 @@ const Contact = () => {
               <p><TiLocation /></p>
               <h6>ADDRESS</h6>
             <address>
-                Nashik, <br />
+                Nashik,
                 422009
             </address>
             </div>

@@ -9,7 +9,7 @@ import { Link, NavLink } from "react-router-dom";
   return (
     <nav>
       <Link to="/" className="title">
-        Coupons Code Plateform
+        <img src="./logo.png" className="logo" alt="" />
       </Link>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>
@@ -18,7 +18,7 @@ import { Link, NavLink } from "react-router-dom";
       </div>
       <ul className={menuOpen ? "open" : ""}>
       <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/home">Home</NavLink>
         </li>
         <li>
           <NavLink to="/about">About</NavLink>
@@ -29,6 +29,7 @@ import { Link, NavLink } from "react-router-dom";
         <li>
           <NavLink to="/contact">Contact</NavLink>
         </li>
+       
       </ul>
     </nav>
   );

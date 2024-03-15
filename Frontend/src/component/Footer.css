@@ -1,0 +1,43 @@
+.container-fluid{
+    position: relative;
+    bottom: 0;
+    background-color:#20232a;;
+    color: white;
+  
+    /* width: %; */
+   
+}
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 15px;
+    margin-top: 50px;
+    /* text-align: center; */
+}
+
+
+address{
+    line-height: 300%;
+    /* text-align: center; */
+   
+}
+.diamond{
+    color: #ff076a;
+    height: 25px;
+    width: 25px;
+}
+
+.gray{
+    color: gray;
+}
+
+li{
+    list-style: none;
+    line-height: 300%;
+    /* text-align: center; */
+}
+
+a{
+    color: white;
+}
